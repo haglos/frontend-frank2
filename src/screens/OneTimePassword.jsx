@@ -69,7 +69,7 @@ function OTP() {
 
                         <form className={styles.form} onSubmit={submitHandler}>
                             <div className={styles.formbody}>
-                                <p>Please enter the one time password sent to your phone email</p>
+                                <p>Please enter the one time password sent to your email</p>
                                 <input placeholder='Enter OTP' onChange={(e) => onChangeHandler('otpCode', e.target.value)} value={otpCode} required />
 
                                 <button>submit</button>
