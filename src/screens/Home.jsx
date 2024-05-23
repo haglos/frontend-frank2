@@ -380,16 +380,7 @@ const HomePage = () => {
                         </div>
                     </div>
 
-                    <div className="col-lg-3 col-sm-6 col-md-6">
-                        <div className="single-footer-widget">
-                            <h3>Address</h3>
-
-                            <ul className="footer-contact-info">
-                                <li><span>Location:</span>{isAdminData.location}</li>
-                                <li><span>Phone:</span> <a href="">{isAdminData.phone}</a></li>
-                            </ul>
-                        </div>
-                    </div>
+                    
                 </div>
 
                 <div className="copyright-area">
